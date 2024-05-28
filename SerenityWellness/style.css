@@ -1,0 +1,153 @@
+@font-face {
+    font-family: "NewFont";
+    src: url(".././fonts/PlusJakartaSans-VariableFont_wght.ttf");
+}
+
+h1, h2, h3, p, nav{
+    font-family: "NewFont", serif;
+}
+
+.icon {
+    width: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: #415d46;
+    margin: 5px;;
+}
+
+header{
+    background-color:#96a797;
+    text-align:center;
+    padding: 5px;
+}
+
+nav{
+    margin-left: 1px;
+    padding: 2rem;
+}
+
+.navegador{
+    margin-left: 1rem;
+}
+
+.encabezado {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+footer
+{   background-color:#96a797;
+    height: 5rem;
+    margin:none;
+}
+
+
+main {
+    background-color: #f0f1f1c0;
+    width: auto;
+    height: auto;
+}
+
+.carousel-inner img{
+    width: 60rem;
+    height: 40rem;
+    padding: none;
+
+}
+
+.mainClass h1, p{
+    text-align: center;
+    margin-top: 30px;
+    padding: 1rem;
+}
+
+
+.mainClass {
+    display: grid;
+    width: 100%;
+    grid-template-columns: auto auto;
+    justify-items: space-around;
+
+}
+
+.footerClass {
+    margin: 0%;
+    border: none;
+}
+
+.footerClass p{
+    text-align: center;
+    padding-top: 2rem;
+    margin: 0%;
+
+}
+
+.activitiesList p {
+    text-align: left;
+}
+
+.mainClassContact{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 2rem;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+.mainClassContact input{
+    margin: 5px;
+}
+
+.btnEnviar{
+    width: 100px;
+}
+
+.mainClassServices {
+    width: 100%;
+}
+
+.mainClassServices h2{
+  margin: 0px;
+  padding: 10px;
+  text-align: center;
+}
+
+.mainClassServices p{
+    margin: 0px;
+    text-align: center;
+  }
+.services {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding: 5px;
+}
+
+.col {
+    border-color: grey;
+    border-width: 2px;
+    border-style: solid;
+    align-items: center;
+    align-content: center;
+    padding: 10px;
+    margin: 5px;
+    width: 30%;
+}
+.col img {
+    width: 15rem;
+    height: 10rem;
+    padding: 0px 20px 0px 40px;
+    margin: 2 px;
+}
+
+.col p, h3{
+    text-align: center;
+    
+}
+.services input{
+  align-content: auto;
+}
